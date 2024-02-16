@@ -2,8 +2,6 @@ const express = require('express');
 const { PORT = 3333 } = process.env;
 
 const baseUrl = 'https://newsapi.org/v2/everything?';
-const key = '5e7d4c6c6454426ca37b45750e0a36b2';
-const q = 'gatos';
 
 const app = express();
 
